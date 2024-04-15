@@ -1,54 +1,38 @@
 
-    <!-- header -->
-    <header>
-        <nav>
-            <div class="img-nav">
-                <img src="img/logo.png" alt="" />
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    
+    <div class="container">
+        <header>
+            <h1>Your Shopping Cart</h1>
+            <div class="shopping">
+                <img src="http://www.w3.org/2000/svg">
+                <span class="quantity">0</span>
             </div>
-            <div class="content-nav">
-                <ul>
-                    <li><a href="#">Trang Chủ</a></li>
-                    <li><a href="#">Sản Phẩm</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                    <li><a href="#">Giới Thiệu</a></li>
-                </ul>
-                <form>
-                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
-                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </form>
-            </div>
-            <!-- The Modal -->
-            <button id="cart">
-                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                Giỏ Hàng
-            </button>
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Giỏ Hàng</h5>
-                        <span class="close">&times;</span>
-                    </div>
-                    <div class="modal-body">
-                        <div class="cart-row">
-                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
-                            <span class="cart-price cart-header cart-column">Giá</span>
-                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
-                        </div>
-                        <div class="cart-items">
+        </header>
 
-                        </div>
-                        <div class="cart-total">
-                            <strong class="cart-total-title">Tổng Cộng:</strong>
-                            <span class="cart-total-price">0VNĐ</span>
-                        </div>
-                    </div>
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
 
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
-                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-    </header>
+    <script src="app.js"></script>
+</body>
+</html>
