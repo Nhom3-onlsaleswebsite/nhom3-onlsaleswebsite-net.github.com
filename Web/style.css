@@ -1,0 +1,74 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+        body{
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            color: #111
+        }
+        .headline{
+            text-align: center;
+        }
+        h2{
+            font-size: 18px;
+            color: black;
+            padding: 10px;
+            text-transform: uppercase;
+            border:  2px solid #bebebe ;
+            display: inline;
+            color: #555;
+        }
+        ul.products{
+            display: flex ;
+            flex-wrap: wrap;            
+        }
+        ul.products li{
+            flex-basis: 33% ;
+        text-align: center;
+        }
+        
+ ul.product li a.product-name{
+    padding: 10px 0;
+ }
+   ul{
+    list-style: none;
+   }
+   ul.product li a.product-name{
+    color: #334862;
+    padding: 3px 0px;
+   }
+   ul.products li .product-price{
+    color: #111;
+    font-weight: 600;
+   }
+   .product-name{
+    text-decoration: none;
+   }
+   ul.products li .product-top a.buy-now{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: #334862;
+    color: #fff;
+    padding: 10px 0px;
+    border: 2px solid #bebebe;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+   }
+    
+   ul.products li img{
+    max-width: 100%;
+    height: auto;
+   }
+   ul.products li .product-top .product-thumb{
+    display: block ;
+   }
+   ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+   }
+   ul.products li:hover a.buy-now{
+    bottom: 10px;
+   }
